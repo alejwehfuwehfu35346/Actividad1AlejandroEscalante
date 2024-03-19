@@ -13,7 +13,7 @@ namespace SistemasVentas.DAL
 
         public static string CONECTAR
         {
-            get { return @"Data Source=PCA-27; Initial Catalog=BDTienda; Integrated Security=True; TrustServerCertificate=true;"; }
+            get { return @"Data Source=PCA-27; Initial Catalog=Computadora; Integrated Security=True; TrustServerCertificate=true;"; }
             //get { return ConfigurationManager.ConnectionStrings["cadena"].ToString(); }
         }
         public static DataSet EjecutarDataSet(string consulta)
